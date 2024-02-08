@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            YouTube Clone
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style/general.css">
+        <link rel="stylesheet" href="style/header.css">
+        <link rel="stylesheet" href="style/video.css">
+        <link rel="stylesheet" href="style/sidebar.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="left-section">
+                <img class="hamberger-menu" src="icons/hamburger-menu.svg">
+                <img class="youtube-logo"src="icons/youtube-logo.svg">
+            </div>
+            <div class="middle-section">
+                <input class="searchbar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="icons/search.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="voice-search-button">
+                    <img src="icons/voice-search-icon.svg">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+            <div class="right-section">
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="icons/upload.svg">
+                    <div class="tooltip">Create</div>
+                </div>
+                <div class="youtube-apps-container">
+                    <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+                    <div class="tooltip">YouTube Apps</div>
+                </div>
+                <div class="notifications-icon-container">
+                    <img class="notification-icon" src="icons/notifications.svg">
+                    <div class="notifications-count">
+                        3
+                    </div>
+                    <div class="tooltip">Notifications</div>
+                </div>
+                <img class="current-user-profile" src="channels/profile.jpg">
+            </div>
+        </header>
+
+        <nav class="sidebar">
+            <div class="sidebar-link">
+                <img src="icons/home.svg">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/explore.svg">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/subscriptions.svg">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/originals.svg">
+                <div>Originals</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/youtube-music.svg">
+                <div>YouTube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/library.svg">
+                <div>Library</div>
+            </div>
+        </nav>
+
+        <main>
+            <section class="video-grid">
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=RqmwLMwNumo"> 
+                            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+                        </a>
+                        <div class="video-time">
+                            10:23
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <a href="https://www.youtube.com/@TechBurner">
+                                <img class="profile-picture" src="channels/channel-1.jpg">
+                            </a>  
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=RqmwLMwNumo"> 
+                                <p class="video-title">
+                                    All New Samsung S24 Series is Here - Next Level AI !
+                                </p>
+                            </a>
+                            <p class="video-author">
+                                Tech Burner
+                            </p>
+                            <p class="video-stats">
+                                11.3M subscribers &#183; 3 days ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=9cNETceVdWg">
+                            <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+                        </a>
+                        <div class="video-time">
+                            10:05
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channels/channel-2.jpg">
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=9cNETceVdWg">
+                                <p class="video-title">
+                                    Samsung Galaxy S24 Ultra, S24 & S24+ Hands On & First Look ⚡The Real AI Flagship Of 2024
+                                </p>
+                            </a>
+                            <p class="video-author">
+                                Trakin Tech
+                            </p>
+                            <p class="video-stats">
+                                13.9M subscribers &#183; 2 days ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+    
+                        <div class="video-time">
+                            11:30
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channels/channel-3.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Poet & Pancake | Flamingo - Class 12 English | NCERT for Boards
+    
+                            </p>
+                            <p class="video-author">
+                                Apni Kaksha
+                            </p>
+                            <p class="video-stats">
+                                1.4M subscribers &#183; 7 days ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+    
+                        <div class="video-time">
+                            10:20
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channels/channel-4.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Building Monster Gaming & Editing PC - Step By Step
+                            </p>
+                            <p class="video-author">
+                                Technology Gyan
+                            </p>
+                            <p class="video-stats">
+                                13.7M subscribers &#183; 1 days ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+    
+                        <div class="video-time">
+                            19:49
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channels/channel-5.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                I Tried This Budget Friendly Smartphone !
+                            </p>
+                            <p class="video-author">
+                                Gyan Therapy
+                            </p>
+                            <p class="video-stats">
+                                3.01M subscribers &#183; 3 days ago
+                            </p>
+                        </div>
+                    </div>                   
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+    
+                        <div class="video-time">
+                            20:10
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channels/channel-6.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Lets build a Portfolio Website using Hostinger AI Builder 🔥
+                            </p>
+                            <p class="video-author">
+                                Code With Harry
+                            </p>
+                            <p class="video-stats">
+                                5.34M subscribers &#183; 2 days ago
+                            </p>
+                        </div>
+                    </div> 
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
